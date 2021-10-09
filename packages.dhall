@@ -1,5 +1,10 @@
 
-{ prelude =
+{ newtype =
+  { dependencies = [ "prelude", "safe-coerce" ]
+  , repo = "https://github.com/purenix-org/purescript-newtype.git"
+  , version = "master"
+  }
+, prelude =
   { dependencies = [] : List Text
   , repo = "https://github.com/purenix-org/purescript-prelude.git"
   , version = "master"
