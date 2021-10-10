@@ -3,9 +3,19 @@
   , repo = "https://github.com/purenix-org/purescript-control.git"
   , version = "master"
   }
+, either =
+  { dependencies = [ "control", "invariant", "maybe", "prelude" ]
+  , repo = "https://github.com/purenix-org/purescript-either.git"
+  , version = "master"
+  }
 , invariant =
   { dependencies = [ "control", "prelude" ]
   , repo = "https://github.com/purenix-org/purescript-invariant.git"
+  , version = "master"
+  }
+, maybe =
+  { dependencies = [ "control", "invariant", "newtype", "prelude" ]
+  , repo = "https://github.com/purenix-org/purescript-maybe.git"
   , version = "master"
   }
 , newtype =
