@@ -1,5 +1,9 @@
-
-{ newtype =
+{ control =
+  { dependencies = [ "newtype", "prelude" ]
+  , repo = "https://github.com/purenix-org/purescript-control.git"
+  , version = "master"
+  }
+, newtype =
   { dependencies = [ "prelude", "safe-coerce" ]
   , repo = "https://github.com/purenix-org/purescript-newtype.git"
   , version = "master"
