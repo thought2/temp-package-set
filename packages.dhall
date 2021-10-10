@@ -23,6 +23,11 @@
   , repo = "https://github.com/purenix-org/purescript-safe-coerce.git"
   , version = "master"
   }
+, tuples =
+  { dependencies = [ "control", "invariant", "prelude" ]
+  , repo = "https://github.com/purenix-org/purescript-tuples.git"
+  , version = "master"
+  }
 , unsafe-coerce =
   { dependencies = [] : List Text
   , repo = "https://github.com/purenix-org/purescript-unsafe-coerce.git"
