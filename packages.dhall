@@ -3,6 +3,11 @@
   , repo = "https://github.com/purenix-org/purescript-control.git"
   , version = "master"
   }
+, invariant =
+  { dependencies = [ "control", "prelude" ]
+  , repo = "https://github.com/purenix-org/purescript-invariant.git"
+  , version = "master"
+  }
 , newtype =
   { dependencies = [ "prelude", "safe-coerce" ]
   , repo = "https://github.com/purenix-org/purescript-newtype.git"
