@@ -8,6 +8,11 @@
   , repo = "https://github.com/purenix-org/purescript-either.git"
   , version = "master"
   }
+, exists =
+  { dependencies = [ "unsafe-coerce" ]
+  , repo = "https://github.com/purenix-org/purescript-exists.git"
+  , version = "master"
+  }
 , invariant =
   { dependencies = [ "control", "prelude" ]
   , repo = "https://github.com/purenix-org/purescript-invariant.git"
