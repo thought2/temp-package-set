@@ -13,6 +13,11 @@
   , repo = "https://github.com/purenix-org/purescript-exists.git"
   , version = "master"
   }
+, identity =
+  { dependencies = [ "control", "invariant", "newtype", "prelude" ]
+  , repo = "https://github.com/purenix-org/purescript-identity.git"
+  , version = "master"
+  }
 , invariant =
   { dependencies = [ "control", "prelude" ]
   , repo = "https://github.com/purenix-org/purescript-invariant.git"
