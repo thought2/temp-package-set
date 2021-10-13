@@ -49,6 +49,20 @@
   , repo = "https://github.com/purenix-org/purescript-prelude.git"
   , version = "master"
   }
+, profunctor =
+  { dependencies =
+    [ "control"
+    , "distributive"
+    , "either"
+    , "exists"
+    , "invariant"
+    , "newtype"
+    , "prelude"
+    , "tuples"
+    ]
+  , repo = "https://github.com/purenix-org/purescript-profunctor.git"
+  , version = "master"
+  }
 , safe-coerce =
   { dependencies = [ "unsafe-coerce" ]
   , repo = "https://github.com/purenix-org/purescript-safe-coerce.git"
