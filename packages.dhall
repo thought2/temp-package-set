@@ -78,6 +78,11 @@
   , repo = "https://github.com/purenix-org/purescript-newtype.git"
   , version = "master"
   }
+, orders =
+  { dependencies = [ "newtype", "prelude" ]
+  , repo = "https://github.com/purenix-org/purescript-orders.git"
+  , version = "master"
+  }
 , prelude =
   { dependencies = [] : List Text
   , repo = "https://github.com/purenix-org/purescript-prelude.git"
