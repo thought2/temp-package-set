@@ -76,7 +76,7 @@
 , type-equality =
   { dependencies = [] : List Text
   , repo = "https://github.com/purenix-org/purescript-type-equality.git"
-  , version = "v4.0.0"
+  , version = "master"
   }
 , unsafe-coerce =
   { dependencies = [] : List Text
