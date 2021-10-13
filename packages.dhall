@@ -34,6 +34,25 @@
   , repo = "https://github.com/purenix-org/purescript-exists.git"
   , version = "master"
   }
+, functors =
+  { dependencies =
+    [ "bifunctors"
+    , "const"
+    , "contravariant"
+    , "control"
+    , "distributive"
+    , "either"
+    , "invariant"
+    , "maybe"
+    , "newtype"
+    , "prelude"
+    , "profunctor"
+    , "tuples"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/purenix-org/purescript-functors.git"
+  , version = "master"
+  }
 , identity =
   { dependencies = [ "control", "invariant", "newtype", "prelude" ]
   , repo = "https://github.com/purenix-org/purescript-identity.git"
