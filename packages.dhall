@@ -8,6 +8,11 @@
   , repo = "https://github.com/purenix-org/purescript-const.git"
   , version = "master"
   }
+, contravariant =
+  { dependencies = [ "const", "either", "newtype", "prelude", "tuples" ]
+  , repo = "https://github.com/purenix-org/purescript-contravariant.git"
+  , version = "master"
+  }
 , control =
   { dependencies = [ "newtype", "prelude" ]
   , repo = "https://github.com/purenix-org/purescript-control.git"
