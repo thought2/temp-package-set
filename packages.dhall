@@ -1,4 +1,9 @@
-{ const =
+{ bifunctors =
+  { dependencies = [ "const", "either", "newtype", "prelude", "tuples" ]
+  , repo = "https://github.com/purenix-org/purescript-bifunctors.git"
+  , version = "master"
+  }
+, const =
   { dependencies = [ "invariant", "newtype", "prelude" ]
   , repo = "https://github.com/purenix-org/purescript-const.git"
   , version = "master"
