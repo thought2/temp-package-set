@@ -34,6 +34,23 @@
   , repo = "https://github.com/purenix-org/purescript-exists.git"
   , version = "master"
   }
+, foldable-traversable =
+  { dependencies =
+    [ "bifunctors"
+    , "const"
+    , "control"
+    , "either"
+    , "functors"
+    , "identity"
+    , "maybe"
+    , "newtype"
+    , "orders"
+    , "prelude"
+    , "tuples"
+    ]
+  , repo = "https://github.com/purenix-org/purescript-foldable-traversable.git"
+  , version = "master"
+  }
 , functors =
   { dependencies =
     [ "bifunctors"
