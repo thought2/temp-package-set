@@ -48,6 +48,11 @@
   , repo = "https://github.com/purenix-org/purescript-tuples.git"
   , version = "master"
   }
+, type-equality =
+  { dependencies = [] : List Text
+  , repo = "https://github.com/purenix-org/purescript-type-equality.git"
+  , version = "v4.0.0"
+  }
 , unsafe-coerce =
   { dependencies = [] : List Text
   , repo = "https://github.com/purenix-org/purescript-unsafe-coerce.git"
