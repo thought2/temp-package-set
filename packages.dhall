@@ -3,6 +3,12 @@
   , repo = "https://github.com/purenix-org/purescript-control.git"
   , version = "master"
   }
+, distributive =
+  { dependencies =
+    [ "identity", "newtype", "prelude", "tuples", "type-equality" ]
+  , repo = "https://github.com/purenix-org/purescript-distributive.git"
+  , version = "master"
+  }
 , either =
   { dependencies = [ "control", "invariant", "maybe", "prelude" ]
   , repo = "https://github.com/purenix-org/purescript-either.git"
