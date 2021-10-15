@@ -134,6 +134,12 @@
   , repo = "https://github.com/purenix-org/purescript-type-equality.git"
   , version = "master"
   }
+, unfoldable =
+  { dependencies =
+    [ "foldable-traversable", "maybe", "partial", "prelude", "tuples" ]
+  , repo = "https://github.com/purenix-org/purescript-unfoldable.git"
+  , version = "master"
+  }
 , unsafe-coerce =
   { dependencies = [] : List Text
   , repo = "https://github.com/purenix-org/purescript-unsafe-coerce.git"
