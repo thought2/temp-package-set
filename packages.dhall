@@ -100,6 +100,11 @@
   , repo = "https://github.com/purenix-org/purescript-orders.git"
   , version = "master"
   }
+, partial =
+  { dependencies = [] : List Text
+  , repo = "https://github.com/purenix-org/purescript-partial.git"
+  , version = "master"
+  }
 , prelude =
   { dependencies = [] : List Text
   , repo = "https://github.com/purenix-org/purescript-prelude.git"
