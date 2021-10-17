@@ -1,4 +1,22 @@
-{ bifunctors =
+{ arrays =
+  { dependencies =
+    [ "bifunctors"
+    , "control"
+    , "foldable-traversable"
+    , "maybe"
+    , "nonempty"
+    , "partial"
+    , "prelude"
+    , "st"
+    , "tailrec"
+    , "tuples"
+    , "unfoldable"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/purenix-org/purescript-arrays.git"
+  , version = "master"
+  }
+, bifunctors =
   { dependencies = [ "const", "either", "newtype", "prelude", "tuples" ]
   , repo = "https://github.com/purenix-org/purescript-bifunctors.git"
   , version = "master"
