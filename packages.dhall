@@ -95,6 +95,18 @@
   , repo = "https://github.com/purenix-org/purescript-newtype.git"
   , version = "master"
   }
+, nonempty =
+  { dependencies =
+    [ "control"
+    , "foldable-traversable"
+    , "maybe"
+    , "prelude"
+    , "tuples"
+    , "unfoldable"
+    ]
+  , repo = "https://github.com/purenix-org/purescript-nonempty.git"
+  , version = "master"
+  }
 , orders =
   { dependencies = [ "newtype", "prelude" ]
   , repo = "https://github.com/purenix-org/purescript-orders.git"
