@@ -142,7 +142,7 @@
   , version = "master"
   }
 , st =
-  { dependencies = [ "partial", "prelude" ]
+  { dependencies = [ "prelude" ]
   , repo = "https://github.com/purenix-org/purescript-st.git"
   , version = "master"
   }
