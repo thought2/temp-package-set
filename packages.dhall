@@ -141,6 +141,11 @@
   , repo = "https://github.com/purenix-org/purescript-safe-coerce.git"
   , version = "master"
   }
+, st =
+  { dependencies = [ "partial", "prelude", "unsafe-coerce" ]
+  , repo = "https://github.com/purenix-org/purescript-st.git"
+  , version = "master"
+  }
 , tuples =
   { dependencies = [ "control", "invariant", "prelude" ]
   , repo = "https://github.com/purenix-org/purescript-tuples.git"
