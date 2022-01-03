@@ -7,6 +7,11 @@
   , repo = "https://github.com/thought2/purescript-miraculix.git"
   , version = "lite"
   }
+, effect =
+  { dependencies = [ "prelude" ]
+  , repo = "https://github.com/thought2/purescript-effect.git"
+  , version = "main"
+  }
 , foreign =
   { dependencies =
     [ "prelude"
