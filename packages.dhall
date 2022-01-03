@@ -1,3 +1,28 @@
+{ miraculix-lite =
+  { dependencies =
+    [ "prelude"
+    , "newtype"
+    , "orders"
+    ]
+  , repo = "https://github.com/thought2/purescript-miraculix.git"
+  , version = "lite"
+  }
+, foreign =
+  { dependencies =
+    [ "prelude"
+    ]
+  , repo = "https://github.com/thought2/purescript-foreign.git"
+  , version = "main"
+  }
+, foreign-object =
+  { dependencies =
+    [ "prelude"
+    ]
+  , repo = "https://github.com/thought2/purescript-foreign-object.git"
+  , version = "main"
+  }
+}
+//
 { arrays =
   { dependencies =
     [ "bifunctors"
