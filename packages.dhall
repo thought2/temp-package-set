@@ -26,6 +26,13 @@
   , repo = "https://github.com/thought2/purescript-foreign-object.git"
   , version = "main"
   }
+, foreign-path =
+  { dependencies =
+    [ "prelude"
+    ]
+  , repo = "https://github.com/thought2/purescript-foreign-path.git"
+  , version = "main"
+  }
 }
 //
 { arrays =
